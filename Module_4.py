@@ -1,28 +1,28 @@
-# #Basic Conditional Statement
-# my_password = 'password123'
+#Basic Conditional Statement
+my_password = 'password123'
 
-# input_password = input('Please enter password: ')
+input_password = input('Please enter password: ')
 
-# if input_password == my_password:
-#     print('Access Granted')
-# else:
-#     print('Access Denied')
+if input_password == my_password:
+    print('Access Granted')
+else:
+    print('Access Denied')
 
-# #If-else Chain Example
-# my_score = int(input('Please enter your grade: '))
+#If-else Chain Example
+my_score = int(input('Please enter your grade: '))
 
-# if my_score > 89:
-#     my_grade = 'A'
-# elif my_score > 79:
-#     my_grade = 'B'
-# elif my_score > 69:
-#     my_grade = 'C'
-# elif my_score > 59:
-#     my_grade = 'D'
-# else:
-#     my_grade = 'F'
+if my_score > 89:
+    my_grade = 'A'
+elif my_score > 79:
+    my_grade = 'B'
+elif my_score > 69:
+    my_grade = 'C'
+elif my_score > 59:
+    my_grade = 'D'
+else:
+    my_grade = 'F'
 
-# print(my_grade)
+print(my_grade)
 
 #Create small calculator app
 print('Welcome to calc-u-later. Please choose an operation:\n1- Addition\n2- Subtraction\n3- Multiplication\n4- Division')
